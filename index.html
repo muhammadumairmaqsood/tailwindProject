@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+
+    <!-- splider slider Link -->
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+    <!-- animiated css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Font Aswome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+
+    <nav class="bg-indigo-800 text-white">
+      <div class="w-[90%] mx-auto hidden md:block">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-7">
+            <a
+              href="#home"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Home</a
+            >
+            <a
+              href="#blogs"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Blogs</a
+            >
+            <a
+              href="#services"
+              class="hover:text-orange-700 transition-all duration-300"
+              >services</a
+            >
+            <a
+              href="#portfilio"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Portfolio</a
+            >
+            <a
+              href="#footer"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Contact us</a
+            >
+          </div>
+          <div>
+            <img src="./images/348dkN-LogoMakr.png" class="w-16 h-20" />
+          </div>
+          <div class="flex items-center gap-4">
+            <i
+              class="fa-brands fa-facebook-f cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-twitter cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-square-instagram cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-tiktok cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <!-- Moible Nav Menu -->
+
+      <div class="md:hidden">
+        <div class="flex items-center justify-between w-[90%] mx-auto">
+          <div>
+            <img src="./images/348dkN-LogoMakr.png" class="w-16 h-20" />
+          </div>
+          <div onclick="togglemenu()">
+            <button><i class="fa-solid fa-bars"></i></button>
+          </div>
+        </div>
+        <div class="hidden" id="hamburger">
+          <div class="flex flex-col ml-10 gap-6 mt-6 mb-9">
+            <a
+              href="#home"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Home</a
+            >
+            <a
+              href="#blogs"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Blogs</a
+            >
+            <a
+              href="#services"
+              class="hover:text-orange-700 transition-all duration-300"
+              >services</a
+            >
+            <a
+              href="#portfilio"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Portfilio</a
+            >
+            <a
+              href="#footer"
+              class="hover:text-orange-700 transition-all duration-300"
+              >Contact us</a
+            >
+          </div>
+          <div class="flex flex-row gap-4 ml-9 pb-6">
+            <i
+              class="fa-brands fa-facebook-f cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-twitter cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-square-instagram cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-tiktok cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header End -->
+    <!-- Hero section Start -->
+    <section class="lg:p-10 md:p-5" id="home">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div
+          class="flex flex-col justify-center align-middle p-4 mt-5 text-center md:text-left wow animate__animated animate__fadeInLeft"
+        >
+          <h1 class="text-sm">Hello , I am <i class="fas fa-code"></i></h1>
+          <h2 class="lg:text-5xl md:text-4xl font-bold">Umair Maqsood</h2>
+          <p class="lg:text-3xl md:2xl: mt-4">
+            Web Desing / Wordpress Desinger
+          </p>
+          <p class="text-sm mt-3 md:mt-6">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            maxime iste velit quaerat obcaecati asperiores nostrum sed in, earum
+            sint.
+          </p>
+          <div
+            class="mt-6 flex flex-row gap-5 p-3 justify-center md:justify-start"
+          >
+            <i
+              class="fa-brands fa-facebook-f cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-twitter cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-square-instagram cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+            <i
+              class="fa-brands fa-tiktok cursor-pointer hover:text-orange-700 transition-all duration-300"
+            ></i>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-center align-middle lg:p-10 md:p-5 mb-1 wow animate__animated animate__fadeInRight"
+        >
+          <img
+            src="./images/undraw_undraw_undraw_selection_f3no_jw9h_-1-_nxfh.svg"
+            class=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Hero section End -->
+
+    <!-- Blog Section Start -->
+    <section class="p-10 w-full" id="blogs">
+      <div>
+        <div class="mb-10">
+          <h4 class="text-3xl">Blogs</h4>
+        </div>
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-5">
+          <div
+            class="rounded-xl bg-white p-8 hover:bg-red-300 transition-all duration-500 wow animate__animated animate__zoomIn"
+          >
+            <img src="./images/webdevelopment.png" class="" />
+            <h3 class="text-2xl font-bold my-4">Web Development</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+              labore autem alias a perferendis, saepe illum!
+            </p>
+          </div>
+          <div
+            class="rounded-xl bg-green-700 p-8 hover:bg-indigo-700 transition-all duration-500 wow animate__animated animate__zoomIn"
+          >
+            <img src="./images/app.png" class="" />
+            <h3 class="text-2xl font-bold my-4">App Development</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+              labore autem alias a perferendis, saepe illum!
+            </p>
+          </div>
+          <div
+            class="rounded-xl bg-orange-500 p-8 hover:bg-white transition-all duration-500 wow animate__animated animate__zoomIn"
+          >
+            <img src="./images/business.png" class="" />
+            <h3 class="text-2xl font-bold my-4">Business Development</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+              labore autem alias a perferendis, saepe illum!
+            </p>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 hover:bg-red-300 transition-all duration-500 wow animate__animated animate__zoomIn"
+          >
+            <img src="./images/webdevelopment.png" class="" />
+            <h3 class="text-2xl font-bold my-4">Web Development</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+              labore autem alias a perferendis, saepe illum!
+            </p>
+          </div>
+          <div
+            class="rounded-xl bg-teal-500 p-8 hover:bg-orange-600 transition-all duration-500 wow animate__animated animate__zoomIn"
+          >
+            <img src="./images/Marketing.png" class="" />
+            <h3 class="text-2xl font-bold my-4">Social Media Marketing</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+              labore autem alias a perferendis, saepe illum!
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 rounded-xl p-8 mt-8 bg-gradient-to-l from-green-700 hover:text-white transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center align-middle w-full md:w-[90%] p-5"
+          >
+            <img src="./images/blog.svg" class="" />
+          </div>
+          <div
+            class="flex flex-col md:justify-center md:align-middle md:p-8 text-center md:text-left"
+          >
+            <h4 class="text-xl md:text-3xl font-bold">Learn HTML</h4>
+            <p class="text-sm mt-4 md:leading-8">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+              praesentium corporis dolores voluptatibus fugit esse assumenda
+              molestiae laboriosam numquam neque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section End -->
+    <!-- Servuces Section Start -->
+    <section class="bg-gradient-to-r from-green-400" id="services">
+      <div class="w-[90%] mx-auto pt-3 ld:pt-10 md:pt-5">
+        <div class="mb-10">
+          <h1 class="text-5xl">Services</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 rounded-xl gap-6">
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+          <!-- Second -->
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+          <!-- four -->
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+          <!-- five -->
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+          <!-- six -->
+          <div class="grid grid-cols-12 bg-white rounded-xl">
+            <div
+              class="bg-green-600 col-span-3 flex justify-center items-center text-white rounded-l-xl"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <div class="mx-3 my-5 col-span-9">
+              <h1 class="text-2xl font-bold">Web Development</h1>
+              <p class="text-sm mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                officia labore officiis consectetur ducimus quos facere
+                consequuntur ad iusto est?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Servuces Section End -->
+    <!-- Portfilio Section Start -->
+    <section class="bg-gray-300 pb-12" id="portfilio">
+      <div class="mt-10 w-[90%] mx-auto">
+        <div class="mb-10">
+          <h1 class="text-5xl">Portfolio</h1>
+        </div>
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 bg-white place-items-center"
+                >
+                  <div
+                    class="flex flex-col align-middle justify-center pl-7 ml-2 md:ml-20"
+                  >
+                    <h1 class="text-3xl font-bold">Freelancing Services</h1>
+                    <p class="mt-4 text-sm">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus dignissimos quam eligendi perferendis omnis eos
+                      porro!
+                    </p>
+                    <ul class="mt-8 text-sm">
+                      <li><i class="fas fa-chevron-right"></i>HTML</li>
+                      <li><i class="fas fa-chevron-right"></i>CSS</li>
+                      <li><i class="fas fa-chevron-right"></i>Javascript</li>
+                      <li>
+                        <i class="fas fa-chevron-right"></i>Webdevelopment
+                      </li>
+                      <li><i class="fas fa-chevron-right"></i>Photoshop</li>
+                      <li class="mt-5">
+                        <button
+                          class="p-2 rounded bg-green-600 text-white w-full"
+                        >
+                          Visit <i class="fas fa-paper-plane"></i>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="pl-8 py-5">
+                    <img
+                      src="./images/1.png"
+                      class="w-4/5 border-2 rounded-xl"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 bg-white place-items-center"
+                >
+                  <div
+                    class="flex flex-col align-middle justify-center pl-7 md-2 md:ml-20"
+                  >
+                    <h1 class="text-3xl font-bold">Main Home</h1>
+                    <p class="mt-4 text-sm">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus dignissimos quam eligendi perferendis omnis eos
+                      porro!
+                    </p>
+                    <ul class="mt-8 text-sm">
+                      <li><i class="fas fa-chevron-right"></i>HTML</li>
+                      <li><i class="fas fa-chevron-right"></i>CSS</li>
+                      <li><i class="fas fa-chevron-right"></i>Javascript</li>
+                      <li>
+                        <i class="fas fa-chevron-right"></i>Webdevelopment
+                      </li>
+                      <li><i class="fas fa-chevron-right"></i>Photoshop</li>
+                      <li class="mt-5">
+                        <button
+                          class="p-2 rounded bg-green-600 text-white w-full"
+                        >
+                          Visit <i class="fas fa-paper-plane"></i>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="pl-8 py-5">
+                    <img
+                      src="./images/2.png"
+                      class="w-4/5 border-2 rounded-xl"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 bg-white place-items-center"
+                >
+                  <div
+                    class="flex flex-col align-middle justify-center pl-7 ml-2 md:ml-20"
+                  >
+                    <h1 class="text-3xl font-bold">Main Home</h1>
+                    <p class="mt-4 text-sm">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus dignissimos quam eligendi perferendis omnis eos
+                      porro!
+                    </p>
+                    <ul class="mt-8 text-sm">
+                      <li><i class="fas fa-chevron-right"></i>HTML</li>
+                      <li><i class="fas fa-chevron-right"></i>CSS</li>
+                      <li><i class="fas fa-chevron-right"></i>Javascript</li>
+                      <li>
+                        <i class="fas fa-chevron-right"></i>Webdevelopment
+                      </li>
+                      <li><i class="fas fa-chevron-right"></i>Photoshop</li>
+                      <li class="mt-5">
+                        <button
+                          class="p-2 rounded bg-green-600 text-white w-full"
+                        >
+                          Visit <i class="fas fa-paper-plane"></i>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="pl-8 py-5">
+                    <img
+                      src="./images/3.png"
+                      class="w-4/5 border-2 rounded-xl"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 bg-white place-items-center"
+                >
+                  <div
+                    class="flex flex-col align-middle justify-center pl-7 ml-2 md:ml-20"
+                  >
+                    <h1 class="text-3xl font-bold">Java Developer</h1>
+                    <p class="mt-4 text-sm">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minus dignissimos quam eligendi perferendis omnis eos
+                      porro!
+                    </p>
+                    <ul class="mt-8 text-sm">
+                      <li><i class="fas fa-chevron-right"></i>HTML</li>
+                      <li><i class="fas fa-chevron-right"></i>CSS</li>
+                      <li><i class="fas fa-chevron-right"></i>Javascript</li>
+                      <li>
+                        <i class="fas fa-chevron-right"></i>Webdevelopment
+                      </li>
+                      <li><i class="fas fa-chevron-right"></i>Photoshop</li>
+                      <li class="mt-5">
+                        <button
+                          class="p-2 rounded bg-green-600 text-white w-full"
+                        >
+                          Visit <i class="fas fa-paper-plane"></i>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="pl-8 py-5">
+                    <img
+                      src="./images/4.png"
+                      class="w-4/5 border-2 rounded-xl"
+                    />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfilio Section End -->
+    <!-- Footer Section Start -->
+    <footer
+      class="p-20 text-center bg-gray-900 text-white wow animate__animated animate__zoomIn"
+      id="footer "
+    >
+      <i class="fas fa-star mb-4"></i>
+      <h1 class="text-2xl md:text-3xl my-3">abc@gmail.com</h1>
+      <div class="my-10 text-gray-500">
+        <a href="#" class="p-2 md:p-3 hover:text-gray-100"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="#" class="p-2 md:p-3 hover:text-gray-100"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a href="#" class="p-2 md:p-3 hover:text-gray-100"
+          ><i class="fab fa-instagram-square"></i
+        ></a>
+        <a href="#" class="p-2 md:p-3 hover:text-gray-100"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <div class="fixed p-3 bottom-0 right-0">
+      <a href="#home" class="text-4xl text-green-800"
+        ><i class="fas fa-arrow-alt-circle-up"></i
+      ></a>
+    </div>
+    <!-- Splider slider -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
